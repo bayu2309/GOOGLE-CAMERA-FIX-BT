@@ -41,7 +41,7 @@
 
     sget-object v1, Lfkf;->f:Lfkf;
 
-    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    #invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :cond_0
     iget-object v0, p0, Lfhl;->a:Ljava/util/List;
